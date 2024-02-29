@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/lineal');
+@import url('https://fonts.cdnfonts.com/css/yantramanav');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: $font-size-base;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Lineal', sans-serif;
+}
+
+h1 {
+  font-size: $font-size-xxl;
+  font-weight: 1000;
+}
+
+h2 {
+  font-size: $font-size-xl;
+  font-weight: 1200;
+}
+
+h3 {
+  font-size: $font-size-l;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: $font-size-m;
+  font-weight: 300;
+}
