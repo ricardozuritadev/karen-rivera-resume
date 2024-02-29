@@ -1,0 +1,17 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  &__text {
+    font-size: 3.2rem;
+    margin-bottom: -2rem;
+
+    &--yellow {
+      color: $color-primary;
+      padding-left: 3.4rem;
+    }
+  }
+}
