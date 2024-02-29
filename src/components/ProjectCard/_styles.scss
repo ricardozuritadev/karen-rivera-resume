@@ -1,0 +1,11 @@
+.project-card {
+  &__info {
+    display: flex;
+    align-items: flex-end;
+    gap: 2.4rem;
+  }
+
+  &__image {
+    height: 50rem;
+  }
+}
