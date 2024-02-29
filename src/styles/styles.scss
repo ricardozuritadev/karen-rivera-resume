@@ -4,6 +4,12 @@
 @import './base';
 
 // PAGES
+@import '../pages/Home/styles';
 
 // SECTIONS
 @import '../sections/Hero/styles';
+@import '../sections/Projects/styles';
+
+// COMPONENTS
+@import '../components/ProjectCard/styles';
+@import '../components/HorizontalScroll/styles';
