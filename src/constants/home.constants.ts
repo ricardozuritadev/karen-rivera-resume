@@ -1,7 +1,12 @@
 export const SECTIONS = {
   HERO: {
     HI: "Hi! I'm Karen",
-    PRODUCT: 'product',
+    SKILLS: {
+      PRODUCT: 'product',
+      UX_UI: 'ux ui',
+      WEB: 'web',
+      APP: 'app'
+    },
     DESIGNER: 'designer'
   },
   PROJECTS: 'projects',

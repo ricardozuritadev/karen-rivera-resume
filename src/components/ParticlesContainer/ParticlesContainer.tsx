@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadSlim } from '@tsparticles/slim';
 
-import { type Container, type ISourceOptions } from '@tsparticles/engine';
+import { type ISourceOptions } from '@tsparticles/engine';
 
 export default function ParticlesContainer() {
   const [init, setInit] = useState(false);
@@ -15,10 +15,6 @@ export default function ParticlesContainer() {
       setInit(true);
     });
   }, []);
-
-  async function particlesLoaded(container?: Container): Promise<void> {
-    console.log(container);
-  }
 
   const options: ISourceOptions = useMemo(
     () => ({
@@ -92,7 +88,7 @@ export default function ParticlesContainer() {
     return (
       <Particles
         id="tsparticles"
-        particlesLoaded={particlesLoaded}
+        particlesLoaded={async () => {}}
         options={options}
         style={{ position: 'relative' }}
       />
