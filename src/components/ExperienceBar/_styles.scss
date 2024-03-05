@@ -5,6 +5,10 @@
   border-bottom: 1px solid $color-gray;
   transition: all 0.15s;
 
+  &--border-top {
+    border-top: 1px solid $color-gray;
+  }
+
   &:hover {
     background-color: $color-primary;
   }
