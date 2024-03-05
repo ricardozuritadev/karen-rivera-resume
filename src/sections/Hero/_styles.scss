@@ -6,9 +6,18 @@
   padding: 0 16rem;
   height: 100vh;
 
-  &__text {
+  &__greeting {
     font-size: 3.2rem;
     margin-bottom: -2rem;
+    animation: bottomToUp 0.4s ease-in;
+  }
+
+  &__animated-text {
+    display: flex;
+  }
+
+  &__title {
+    display: inline-block;
 
     &--yellow {
       color: $color-primary;
