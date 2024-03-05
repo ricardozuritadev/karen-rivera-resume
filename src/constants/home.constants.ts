@@ -5,5 +5,6 @@ export const SECTIONS = {
     DESIGNER: 'designer'
   },
   PROJECTS: 'projects',
+  CHALLENGES: 'challenges',
   MY_JOURNEY: 'my journey'
 };
