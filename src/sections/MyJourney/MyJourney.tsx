@@ -7,8 +7,8 @@ export default function MyJourney() {
   return (
     <section className="my-journey">
       <h2 className="my-journey__title">{SECTIONS.MY_JOURNEY}</h2>
-      {journey.map((item) => (
-        <ExperienceBar key={item.id} {...item} />
+      {journey.map((item, index) => (
+        <ExperienceBar key={item.id} index={index} {...item} />
       ))}
     </section>
   );

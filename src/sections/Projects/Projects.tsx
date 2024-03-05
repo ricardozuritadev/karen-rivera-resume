@@ -1,15 +1,18 @@
-import projectsData from 'data/projects.json';
-
-import { SECTIONS } from 'constants/home.constants';
+import { Project } from 'types/project.type';
 
 import ProjectCard from 'components/ProjectCard';
 import HorizontalScroll from 'components/HorizontalScroll';
 
-export default function Projects() {
+type ProjectsProps = {
+  sectionTitle: string;
+  data: Project[];
+};
+
+export default function Projects({ sectionTitle, data }: ProjectsProps) {
   return (
     <section className="projects">
-      <HorizontalScroll title={SECTIONS.PROJECTS}>
-        {projectsData.map(({ title, description, image, tags }) => (
+      <HorizontalScroll title={sectionTitle}>
+        {data.map(({ title, description, image, tags }) => (
           <ProjectCard
             key={title}
             title={title}
