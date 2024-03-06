@@ -1,0 +1,14 @@
+.changing-text {
+  display: flex;
+  gap: 4rem;
+
+  &__word {
+    font-family: 'LinealBlack', sans-serif;
+    font-size: $font-size-xxl;
+    text-transform: uppercase;
+
+    &--yellow {
+      color: $color-primary;
+    }
+  }
+}
