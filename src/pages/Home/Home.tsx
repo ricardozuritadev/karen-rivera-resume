@@ -7,6 +7,7 @@ import ParticlesContainer from 'components/ParticlesContainer/ParticlesContainer
 import Hero from 'sections/Hero';
 import MyJourney from 'sections/MyJourney';
 import Projects from 'sections/Projects';
+import Spacer from 'components/Spacer';
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
       <ParticlesContainer />
       <Hero />
       <Projects sectionTitle={SECTIONS.PROJECTS} data={projectsData} />
+      <Spacer />
       <Projects sectionTitle={SECTIONS.CHALLENGES} data={challengesData} />
+      <Spacer />
       <MyJourney />
     </div>
   );

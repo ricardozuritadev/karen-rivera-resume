@@ -28,17 +28,15 @@ export default function ParticlesContainer() {
         events: {
           onHover: {
             enable: true,
-            mode: 'bubble'
+            mode: ['grab', 'connect']
           }
         },
         modes: {
-          bubble: {
-            color: '#ffde30',
-            distance: 200,
-            duration: 2,
-            opacity: 0.5,
-            size: 15,
-            speed: 3
+          grab: {
+            links: {
+              opacity: 0.4
+            },
+            distance: 200
           }
         }
       },
@@ -47,11 +45,11 @@ export default function ParticlesContainer() {
           value: '#ffffff'
         },
         links: {
-          color: '#ffffff',
-          distance: 60,
           enable: true,
-          opacity: 0.2,
-          width: 1
+          color: '#ffffff',
+          distance: 100,
+          opacity: 0.1,
+          width: 0.5
         },
         move: {
           direction: 'none',
@@ -60,23 +58,16 @@ export default function ParticlesContainer() {
             default: 'out'
           },
           random: false,
-          speed: 0.5,
-          straight: false
+          speed: 0.2
         },
         number: {
           density: {
             enable: true
           },
-          value: 350
+          value: 200
         },
         opacity: {
-          value: 0.01
-        },
-        shape: {
-          type: 'circle'
-        },
-        size: {
-          value: { min: 2, max: 10 }
+          value: 0
         }
       },
       detectRetina: true
