@@ -19,6 +19,7 @@ export default function ExperienceBar({
     <div className={`experience-bar ${borderTopClass}`}>
       <p className="experience-bar__title">{title}</p>
       <p className="experience-bar__date">{date}</p>
+      <div className="experience-bar__background"></div>
     </div>
   );
 }
