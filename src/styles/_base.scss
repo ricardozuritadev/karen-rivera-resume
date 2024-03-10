@@ -38,6 +38,7 @@ body {
   line-height: 1.5;
   background-color: $color-black;
   color: $color-white;
+  user-select: none;
 }
 
 a {
