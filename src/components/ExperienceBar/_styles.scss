@@ -2,7 +2,9 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 4rem 16rem;
+  align-items: center;
+  padding: 0 16rem;
+  height: 12.2rem;
   border-bottom: 1px solid $color-gray;
 
   &__background {
@@ -14,7 +16,7 @@
     height: 100%;
     transform: scaleY(0);
     z-index: -1;
-    transition: all 0.5s;
+    transition: all 0.4s;
   }
 
   &--border-top {
@@ -30,13 +32,28 @@
     font-size: 3.5rem;
     text-transform: uppercase;
     color: $color-primary;
-    transition: all 0.5s;
+    transition: all 0.4s;
   }
 
-  &__date {
+  &__date,
+  &__details {
     font-size: 3.5rem;
     font-weight: lighter;
-    transition: all 0.5s;
+    transition: all 0.4s;
+  }
+
+  &__details {
+    display: none;
+  }
+
+  &__details-text {
+    color: $color-black;
+    font-weight: 300;
+
+    &--separator {
+      border-right: 1px solid $color-black;
+      padding: 0 4rem;
+    }
   }
 
   &:hover .experience-bar__title {
@@ -45,7 +62,28 @@
     font-weight: 500;
   }
 
+  &:hover .experience-bar__details {
+    display: flex;
+    gap: 3.4rem;
+  }
+
   &:hover .experience-bar__date {
+    display: none;
+  }
+}
+
+.experience-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &__title {
+    font-size: 3.2rem;
+    color: $color-black;
+  }
+
+  &__school {
+    font-size: 2rem;
     color: $color-black;
   }
 }
