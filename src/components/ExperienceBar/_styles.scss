@@ -1,35 +1,48 @@
 .experience-bar {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding: 4rem 16rem;
   border-bottom: 1px solid $color-gray;
-  transition: all 0.15s;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $color-primary;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0);
+    z-index: -1;
+    transition: all 0.5s;
+  }
 
   &--border-top {
     border-top: 1px solid $color-gray;
   }
 
-  &:hover {
-    background-color: $color-primary;
+  &:hover .experience-bar__background {
+    transform: scaleY(1);
   }
 
   &__title {
     font-family: 'LinealThin', sans-serif;
     font-size: 3.5rem;
-    font-weight: lighter;
     text-transform: uppercase;
     color: $color-primary;
-    transition: all 0.15s;
+    transition: all 0.5s;
   }
 
   &__date {
     font-size: 3.5rem;
     font-weight: lighter;
-    transition: all 0.15s;
+    transition: all 0.5s;
   }
 
   &:hover .experience-bar__title {
+    font-family: 'LinealLight', sans-serif;
     color: $color-black;
+    font-weight: 500;
   }
 
   &:hover .experience-bar__date {

@@ -1,20 +1,23 @@
 @import url('https://fonts.cdnfonts.com/css/yantramanav');
+
 @font-face {
   font-family: 'LinealBlack';
-  src: local('LinealBlack'), url('../fonts/Lineal-Black.ttf') format('truetype');
+  src: url('../fonts/Lineal-Black.woff2');
 }
+
 @font-face {
-  font-family: 'LinealBlack';
-  src: local('LinealBlack'), url('../fonts/Lineal-Black.ttf') format('truetype');
+  font-family: 'LinealLight';
+  src: url('../fonts/Lineal-Light.woff2');
 }
+
 @font-face {
   font-family: 'LinealRegular';
-  src: local('LinealRegular'),
-    url('../fonts/Lineal-Regular.ttf') format('truetype');
+  src: url('../fonts/Lineal-Regular.woff2');
 }
+
 @font-face {
   font-family: 'LinealThin';
-  src: local('LinealThin'), url('../fonts/Lineal-Thin.ttf') format('truetype');
+  src: url('../fonts/Lineal-Thin.woff2');
 }
 
 * {
