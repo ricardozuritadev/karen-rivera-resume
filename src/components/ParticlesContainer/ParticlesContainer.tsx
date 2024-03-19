@@ -1,9 +1,11 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from "react";
 
-import Particles, { initParticlesEngine } from '@tsparticles/react';
-import { loadSlim } from '@tsparticles/slim';
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
 
-import { type ISourceOptions } from '@tsparticles/engine';
+import { type ISourceOptions } from "@tsparticles/engine";
+
+import Loading from "pages/Loading";
 
 export default function ParticlesContainer() {
   const [init, setInit] = useState(false);
@@ -20,7 +22,7 @@ export default function ParticlesContainer() {
     () => ({
       background: {
         color: {
-          value: 'none'
+          value: "none"
         }
       },
       fpsLimit: 120,
@@ -28,7 +30,7 @@ export default function ParticlesContainer() {
         events: {
           onHover: {
             enable: true,
-            mode: ['grab', 'connect']
+            mode: ["grab", "connect"]
           }
         },
         modes: {
@@ -42,20 +44,20 @@ export default function ParticlesContainer() {
       },
       particles: {
         color: {
-          value: '#ffffff'
+          value: "#ffffff"
         },
         links: {
           enable: true,
-          color: '#ffffff',
+          color: "#ffffff",
           distance: 100,
           opacity: 0.1,
           width: 0.5
         },
         move: {
-          direction: 'none',
+          direction: "none",
           enable: true,
           outModes: {
-            default: 'out'
+            default: "out"
           },
           random: false,
           speed: 0.2
@@ -75,16 +77,14 @@ export default function ParticlesContainer() {
     []
   );
 
-  if (init) {
-    return (
-      <Particles
-        id="tsparticles"
-        particlesLoaded={async () => {}}
-        options={options}
-        style={{ position: 'relative' }}
-      />
-    );
-  }
+  if (!init) return <Loading />;
 
-  return null;
+  return (
+    <Particles
+      id="tsparticles"
+      particlesLoaded={async () => {}}
+      options={options}
+      style={{ position: "relative" }}
+    />
+  );
 }
