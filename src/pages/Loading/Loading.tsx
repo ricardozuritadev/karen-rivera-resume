@@ -1,7 +1,7 @@
 export default function Loading() {
   return (
-    <section>
-      <h1>LOADING</h1>
+    <section className="loading">
+      <h1>loading...</h1>
     </section>
   );
 }
