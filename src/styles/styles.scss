@@ -1,21 +1,22 @@
-@import './variables';
-@import './fonts';
-@import './animations';
+@import "./variables";
+@import "./fonts";
+@import "./animations";
 
-@import './base';
+@import "./base";
 
 // PAGES
-@import '../pages/Home/styles';
+@import "../pages/Home/styles";
+@import "../pages/Loading/styles";
 
 // SECTIONS
-@import '../sections/Hero/styles';
-@import '../sections/Projects/styles';
-@import '../sections/MyJourney/styles';
+@import "../sections/Hero/styles";
+@import "../sections/Projects/styles";
+@import "../sections/MyJourney/styles";
 
 // COMPONENTS
-@import '../components/ProjectCard/styles';
-@import '../components/HorizontalScroll/styles';
-@import '../components/ExperienceBar/styles';
-@import '../components/AnimatedText/styles';
-@import '../components/Spacer/styles';
-@import '../components/ChangingText/styles';
+@import "../components/ProjectCard/styles";
+@import "../components/HorizontalScroll/styles";
+@import "../components/ExperienceBar/styles";
+@import "../components/AnimatedText/styles";
+@import "../components/Spacer/styles";
+@import "../components/ChangingText/styles";
