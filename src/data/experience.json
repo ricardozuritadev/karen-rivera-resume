@@ -1,0 +1,34 @@
+[
+    {
+        "id": "experience-01",
+        "images": ["images/experience-01.jpg", "images/experience-01-02.jpg"],
+        "title": "Before Design",
+        "description": "Environmental Sciences",
+        "company": "Research Assistant",
+        "date": "Sep 2020 - Jul 2021"
+    },
+    {
+        "id": "experience-02",
+        "images": ["images/experience-02.jpg", "images/experience-02-02.jpg"],
+        "title": "Photographer",
+        "description": "Pet photography",
+        "company": "La historia de mi mascota",
+        "date": "Sep 2020 - Jul 2021"
+    },
+    {
+        "id": "experience-03",
+        "images": ["images/experience-03.jpg", "images/experience-03-02.jpg"],
+        "title": "Community Manager",
+        "description": "Strategy & content creation",
+        "company": "Startups Field",
+        "date": "Nov 2020 - Oct 2021"
+    },
+    {
+        "id": "experience-04",
+        "images": ["images/experience-04.jpg", "images/experience-04-02.jpg"],
+        "title": "UX UI Designer",
+        "description": "Web, app & Design System",
+        "company": "Thinkabit",
+        "date": "Jan 2023 - Currently"
+    }
+]
