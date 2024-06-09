@@ -1,50 +1,50 @@
 [
-  {
-    "id": "journey-01",
-    "title": "ux ui design",
-    "date": "Jul 2022",
-    "details": [
-      {
-        "title": "UX UI Design Bootcamp",
-        "school": "ironhack"
-      },
-      {
-        "title": "Advanced UX UI Design",
-        "school": "Coderhouse"
-      }
-    ]
-  },
-  {
-    "id": "journey-02",
-    "title": "motion graphics",
-    "date": "Nov 2021",
-    "details": [
-      {
-        "title": "After Effects & Cinema 4D",
-        "school": "CEI: Escuela de Marketing y Diseño"
-      }
-    ]
-  },
-  {
-    "id": "journey-03",
-    "title": "photography & videography",
-    "date": "Sep 2020",
-    "details": [
-      {
-        "title": "Concept and edition",
-        "school": "Self education"
-      }
-    ]
-  },
-  {
-    "id": "journey-04",
-    "title": "enviromental science",
-    "date": "Nov 2019",
-    "details": [
-      {
-        "title": "Environmental Science Degree",
-        "school": "Universidad de Alcalá"
-      }
-    ]
-  }
+    {
+        "id": "journey-01",
+        "title": "ux ui design",
+        "date": "Jul 2022",
+        "details": [
+            {
+                "title": "UX UI Design Bootcamp",
+                "school": "ironhack - 2022"
+            },
+            {
+                "title": "Advanced UX UI Design",
+                "school": "Coderhouse - 2023"
+            }
+        ]
+    },
+    {
+        "id": "journey-02",
+        "title": "motion graphics",
+        "date": "Nov 2021",
+        "details": [
+            {
+                "title": "After Effects & Cinema 4D",
+                "school": "CEI: Escuela de Marketing y Diseño"
+            }
+        ]
+    },
+    {
+        "id": "journey-03",
+        "title": "photography & videography",
+        "date": "Sep 2020",
+        "details": [
+            {
+                "title": "Concept and edition",
+                "school": "Self education"
+            }
+        ]
+    },
+    {
+        "id": "journey-04",
+        "title": "enviromental science",
+        "date": "Nov 2019",
+        "details": [
+            {
+                "title": "Environmental Science Degree",
+                "school": "Universidad de Alcalá"
+            }
+        ]
+    }
 ]
