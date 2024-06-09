@@ -4,6 +4,7 @@ import { loadSlim } from "@tsparticles/slim";
 
 import projectsData from "data/projects.json";
 import challengesData from "data/challenges.json";
+import experienceData from "data/experience.json";
 
 import { SECTIONS } from "constants/home.constants";
 
@@ -13,29 +14,38 @@ import MyJourney from "sections/MyJourney";
 import Projects from "sections/Projects";
 import Spacer from "components/Spacer";
 import Loading from "pages/Loading";
+import Experience from "sections/Experience";
 
 export default function Home() {
-  const [init, setInit] = useState(false);
+    const [init, setInit] = useState(false);
 
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then(() => {
-      setInit(true);
-    });
-  }, []);
+    useEffect(() => {
+        initParticlesEngine(async (engine) => {
+            await loadSlim(engine);
+        }).then(() => {
+            setInit(true);
+        });
+    }, []);
 
-  if (!init) return <Loading />;
+    if (!init) return <Loading />;
 
-  return (
-    <div className="home">
-      <ParticlesContainer />
-      <Hero />
-      <Projects sectionTitle={SECTIONS.PROJECTS} data={projectsData} />
-      <Spacer />
-      <Projects sectionTitle={SECTIONS.CHALLENGES} data={challengesData} />
-      <Spacer />
-      <MyJourney />
-    </div>
-  );
+    return (
+        <div className="home">
+            <ParticlesContainer />
+            <Hero />
+            <Projects sectionTitle={SECTIONS.PROJECTS} data={projectsData} />
+            <Spacer />
+            <Projects
+                sectionTitle={SECTIONS.CHALLENGES}
+                data={challengesData}
+            />
+            <Spacer />
+            <MyJourney />
+            <Spacer />
+            <Experience
+                sectionTitle={SECTIONS.EXPERIENCE}
+                data={experienceData}
+            />
+        </div>
+    );
 }
