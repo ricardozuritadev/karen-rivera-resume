@@ -1,23 +1,23 @@
 [
-  {
-    "id": "project-01",
-    "title": "My Vitamins",
-    "description": "Savings thourgh payments & Retirment",
-    "image": "images/projects/thumbnail.png",
-    "tags": ["app redesign", "ux ui designer"]
-  },
-  {
-    "id": "project-02",
-    "title": "Good Trade",
-    "description": "Digital volunteering",
-    "image": "images/projects/thumbnail.png",
-    "tags": ["web design", "ux ui designer"]
-  },
-  {
-    "id": "project-03",
-    "title": "Zensave",
-    "description": "Savings thourgh payments & Retirment",
-    "image": "images/projects/thumbnail.png",
-    "tags": ["app design", "ux ui designer"]
-  }
+    {
+        "id": "project-01",
+        "title": "My Vitamins",
+        "description": "Savings thourgh payments & Retirment",
+        "image": "images/projects/thumbnail.png",
+        "tags": ["app redesign", "ux ui designer"]
+    },
+    {
+        "id": "project-02",
+        "title": "Good Trade",
+        "description": "Digital volunteering",
+        "image": "images/projects/thumbnail.png",
+        "tags": ["web design", "ux ui designer"]
+    },
+    {
+        "id": "project-03",
+        "title": "Zensave",
+        "description": "Savings thourgh payments & Retirment",
+        "image": "images/projects/thumbnail.png",
+        "tags": ["app design", "ux ui designer"]
+    }
 ]

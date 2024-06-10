@@ -1,7 +1,7 @@
 [
     {
         "id": "experience-01",
-        "images": ["images/experience-01.jpg", "images/experience-01-02.jpg"],
+        "images": ["environmentalist-1", "environmentalist-2"],
         "title": "Before Design",
         "description": "Environmental Sciences",
         "company": "Research Assistant",
@@ -9,7 +9,7 @@
     },
     {
         "id": "experience-02",
-        "images": ["images/experience-02.jpg", "images/experience-02-02.jpg"],
+        "images": ["photography-1", "photography-2"],
         "title": "Photographer",
         "description": "Pet photography",
         "company": "La historia de mi mascota",
@@ -17,7 +17,7 @@
     },
     {
         "id": "experience-03",
-        "images": ["images/experience-03.jpg", "images/experience-03-02.jpg"],
+        "images": ["cm-1", "cm-2"],
         "title": "Community Manager",
         "description": "Strategy & content creation",
         "company": "Startups Field",
@@ -25,7 +25,7 @@
     },
     {
         "id": "experience-04",
-        "images": ["images/experience-04.jpg", "images/experience-04-02.jpg"],
+        "images": ["uxui-1", "uxui-2"],
         "title": "UX UI Designer",
         "description": "Web, app & Design System",
         "company": "Thinkabit",
