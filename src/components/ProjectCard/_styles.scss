@@ -1,13 +1,13 @@
 .project-card {
-  &__info {
-    display: flex;
-    align-items: flex-end;
-    gap: 2.4rem;
-    width: 140rem;
-  }
+    &__info {
+        display: flex;
+        align-items: flex-end;
+        gap: 2.4rem;
+        width: 138rem;
+    }
 
-  &__image {
-    height: 50rem;
-    cursor: pointer;
-  }
+    &__image {
+        height: 50rem;
+        cursor: pointer;
+    }
 }

@@ -1,17 +1,17 @@
 .horizontal-scroll {
-  position: relative;
-  height: 300vh;
+    position: relative;
+    height: 300vh;
 
-  &__container {
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    height: 100vh;
-    padding-top: 4rem;
-    padding-left: 16rem;
-  }
+    &__container {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        height: 100vh;
+        padding-top: 4rem;
+        padding-left: 16rem;
+    }
 
-  &__card-container {
-    display: flex;
-  }
+    &__card-container {
+        display: flex;
+    }
 }
