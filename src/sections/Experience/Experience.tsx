@@ -10,7 +10,7 @@ type ExperienceProps = {
 export default function Experience({ sectionTitle, data }: ExperienceProps) {
     return (
         <section className="experience">
-            <HorizontalScroll title={sectionTitle}>
+            <HorizontalScroll title={sectionTitle} gap="12rem">
                 {data.map(({ images, title, description, company, date }) => (
                     <ExperienceCard
                         key={title}

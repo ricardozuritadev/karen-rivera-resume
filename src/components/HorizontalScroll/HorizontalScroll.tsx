@@ -6,11 +6,13 @@ import AnimatedText from "components/AnimatedText";
 type HorizontalScrollProps = {
     title: string;
     children: React.ReactNode;
+    gap?: string;
 };
 
 export default function HorizontalScroll({
     title,
-    children
+    children,
+    gap = "0rem"
 }: HorizontalScrollProps) {
     const targetRef = useRef<HTMLDivElement | null>(null);
 
@@ -23,7 +25,7 @@ export default function HorizontalScroll({
             <div className="horizontal-scroll__container">
                 <AnimatedText text={title} el="h2" />
                 <motion.div
-                    style={{ x }}
+                    style={{ x, gap }}
                     className="horizontal-scroll__card-container"
                 >
                     {children}

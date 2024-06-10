@@ -15,20 +15,33 @@ export default function Experiencecard({
     company,
     date
 }: ExperiencecardProps) {
+    const imageFront = images[0];
+    const imageBack = images[1];
+
     return (
         <div className="experience-card">
-            <LazyLoadImage
-                className="experience-card__image"
-                alt="Experience cover image"
-                src={images[0]}
-            />
-
-            <div className="experience-card__info">
-                <h3>{title}</h3>
-                <h4>{description}</h4>
-                <p>{company}</p>
+            <div className="experience-card__container">
+                <div className="experience-card__image-container">
+                    <LazyLoadImage
+                        className="experience-card__image experience-card__image--front"
+                        alt="Experience front cover image"
+                        src={`images/experience/${imageFront}.png`}
+                    />
+                    <LazyLoadImage
+                        className="experience-card__image experience-card__image--back"
+                        alt="Experience back cover image"
+                        src={`images/experience/${imageBack}.png`}
+                    />
+                </div>
+                <div className="experience-card__info">
+                    <h3 className="experience-card__title">{title}</h3>
+                    <div className="experience-card__subtitle">
+                        <h4>{description}</h4>
+                        <p>{company}</p>
+                    </div>
+                </div>
+                <div className="experience-card__line"></div>
             </div>
-
             <div className="experience-card__date">
                 <p>{date}</p>
             </div>
