@@ -23,16 +23,17 @@ export default function Experiencecard({
             <div className="experience-card__container">
                 <div className="experience-card__image-container">
                     <LazyLoadImage
-                        className="experience-card__image experience-card__image--front"
+                        className="experience-card__image"
                         alt="Experience front cover image"
                         src={`images/experience/${imageFront}.png`}
                     />
                     <LazyLoadImage
-                        className="experience-card__image experience-card__image--back"
+                        className="experience-card__image experience-card__image--second"
                         alt="Experience back cover image"
                         src={`images/experience/${imageBack}.png`}
                     />
                 </div>
+
                 <div className="experience-card__info">
                     <h3 className="experience-card__title">{title}</h3>
                     <div className="experience-card__subtitle">
@@ -40,8 +41,10 @@ export default function Experiencecard({
                         <p>{company}</p>
                     </div>
                 </div>
+
                 <div className="experience-card__line"></div>
             </div>
+
             <div className="experience-card__date">
                 <p>{date}</p>
             </div>
