@@ -15,6 +15,7 @@ import Projects from "sections/Projects";
 import Spacer from "components/Spacer";
 import Loading from "pages/Loading";
 import Experience from "sections/Experience";
+import About from "sections/About";
 
 export default function Home() {
     const [init, setInit] = useState(false);
@@ -46,6 +47,9 @@ export default function Home() {
                 sectionTitle={SECTIONS.EXPERIENCE}
                 data={experienceData}
             />
+            <Spacer />
+            <About />
+            <Spacer />
         </div>
     );
 }

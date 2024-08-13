@@ -1,0 +1,25 @@
+.hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+    &__image {
+        width: 100%;
+        filter: contrast(50%);
+
+        &--selected {
+            filter: contrast(100%);
+        }
+    }
+
+    &__title {
+        font-family: "LinealThin", sans-serif;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+
+        &--selected {
+            color: $color-primary;
+        }
+    }
+}

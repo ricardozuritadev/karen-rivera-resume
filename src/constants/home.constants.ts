@@ -12,5 +12,9 @@ export const SECTIONS = {
     PROJECTS: "projects",
     CHALLENGES: "challenges",
     MY_JOURNEY: "my journey",
-    EXPERIENCE: "experience"
+    EXPERIENCE: "experience",
+    WHOAMI: {
+        HEADER: "Who am I?",
+        SUBHEADER: "Let me tell about myself trhough my hobbies and interests"
+    }
 };
