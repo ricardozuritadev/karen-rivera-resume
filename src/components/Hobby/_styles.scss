@@ -7,11 +7,10 @@
 
     &__image {
         width: 98px;
-
-        filter: contrast(50%);
+        filter: contrast(100%);
 
         &--selected {
-            filter: contrast(100%);
+            filter: contrast(85%);
         }
     }
 

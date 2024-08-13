@@ -14,8 +14,9 @@
 
     &__text {
         text-align: center;
-        font-size: 1.8rem;
-        width: 70rem;
+        font-size: 2rem;
         transition: all 0.5s;
+        height: 100%;
+        padding-top: 1.5rem;
     }
 }
