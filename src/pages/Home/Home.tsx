@@ -47,7 +47,6 @@ export default function Home() {
                 sectionTitle={SECTIONS.EXPERIENCE}
                 data={experienceData}
             />
-            <Spacer />
             <About />
             <Spacer />
         </div>

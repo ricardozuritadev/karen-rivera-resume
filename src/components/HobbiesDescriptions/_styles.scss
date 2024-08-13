@@ -1,0 +1,21 @@
+.hobbies-descriptions {
+    position: relative;
+    overflow: hidden;
+    height: 18rem;
+    padding: 4rem 6rem;
+
+    &__border {
+        position: absolute;
+        width: 6rem;
+
+        &--top {
+            top: 0;
+            left: 0;
+        }
+
+        &--bottom {
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

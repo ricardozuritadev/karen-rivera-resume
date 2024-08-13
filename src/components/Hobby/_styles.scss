@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     cursor: pointer;
 
     &__image {
-        width: 100%;
+        width: 98px;
+
         filter: contrast(50%);
 
         &--selected {
@@ -16,10 +18,11 @@
     &__title {
         font-family: "LinealThin", sans-serif;
         text-transform: uppercase;
-        font-size: 2.4rem;
+        font-size: 2rem;
 
         &--selected {
             color: $color-primary;
+            font-size: 2.4rem;
         }
     }
 }

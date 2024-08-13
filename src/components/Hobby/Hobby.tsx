@@ -1,29 +1,25 @@
 import classNames from "classnames";
-import React, { useState } from "react";
 import { Hobby as HobbyTypes } from "types/hobby.type";
 
-export default function Hobby({ ...hobby }: HobbyTypes) {
-    const [selected, setSetselected] = useState<number>(0);
+type HobbyProps = {
+    hobby: HobbyTypes;
+    isSelected: boolean;
+    onSelect: () => void;
+};
 
-    const { image, alt, title, index } = hobby;
+export default function Hobby({ hobby, isSelected, onSelect }: HobbyProps) {
+    const { image, alt, title } = hobby;
 
-    const imageClass = classNames({
-        hobby__image: true,
-        "hobby__image--selected": selected === index
+    const imageClass = classNames("hobby__image", {
+        "hobby__image--selected": isSelected
     });
 
-    const titleClass = classNames({
-        hobby__title: true,
-        "hobby__title--selected": selected === index
+    const titleClass = classNames("hobby__title", {
+        "hobby__title--selected": isSelected
     });
-
-    function handleSelect(e: React.MouseEvent<HTMLDivElement>) {
-        console.log("=> e.target: ", e.target);
-        setSetselected(index);
-    }
 
     return (
-        <div className="hobby" onClick={handleSelect}>
+        <div className="hobby" onClick={onSelect}>
             <img className={imageClass} src={image} alt={alt} />
             <p className={titleClass}>{title}</p>
         </div>
