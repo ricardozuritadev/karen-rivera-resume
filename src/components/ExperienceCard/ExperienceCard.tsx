@@ -38,7 +38,7 @@ export default function Experiencecard({
                     <h3 className="experience-card__title">{title}</h3>
                     <div className="experience-card__subtitle">
                         <h4>{description}</h4>
-                        <p>{company}</p>
+                        <p className="experience-card__company">{company}</p>
                     </div>
                 </div>
 
