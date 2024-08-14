@@ -11,4 +11,9 @@
 .tools {
     display: flex;
     gap: 4.4rem;
+
+    &__tooltip {
+        font-size: 1.8rem !important;
+        margin-top: 1rem;
+    }
 }
