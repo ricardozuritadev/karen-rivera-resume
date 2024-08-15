@@ -1,0 +1,19 @@
+.moving-circle {
+    position: relative;
+    background-color: $color-tooltip;
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+    z-index: 100;
+
+    &__small {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $color-primary;
+        border-radius: 100px;
+        width: 24px;
+        height: 24px;
+    }
+}

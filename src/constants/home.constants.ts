@@ -25,5 +25,12 @@ export const SECTIONS = {
             PEOPLE: "Spending time with friends and family is one of my sources of inspiration. The human connections and shared experiences teach me about empathy, communication and collaboration, essential elements in UX UI design. I value every moment with them, and that is reflected in my dedication to creating interfaces that facilitate meaningful connections for all users."
         }
     },
-    MY_TOOLS: "my tools"
+    MY_TOOLS: "my tools",
+    CONTACT: {
+        CONTACT_ME: "contact me",
+        LINKEDIN_URL: "https://www.linkedin.com/in/karenpamelauxui/",
+        MAIL: "karen.pam99@gmail.com",
+        PHONE_PREFIX: "34",
+        PHONE: "604549971"
+    }
 };

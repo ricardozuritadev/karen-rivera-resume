@@ -1,4 +1,15 @@
 .spacer {
-  width: 100%;
-  height: 14rem;
+    width: 100%;
+
+    &--small {
+        height: 8rem;
+    }
+
+    &--medium {
+        height: 14rem;
+    }
+
+    &--large {
+        height: 24rem;
+    }
 }

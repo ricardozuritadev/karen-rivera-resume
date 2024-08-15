@@ -17,6 +17,7 @@ import Loading from "pages/Loading";
 import Experience from "sections/Experience";
 import About from "sections/About";
 import MyTools from "sections/MyTools";
+import Contact from "sections/Contact";
 
 export default function Home() {
     const [init, setInit] = useState(false);
@@ -53,6 +54,7 @@ export default function Home() {
             <Spacer />
             <MyTools />
             <Spacer />
+            <Contact />
             <Spacer />
             <Spacer />
         </div>
