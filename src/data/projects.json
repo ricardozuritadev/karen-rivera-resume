@@ -3,21 +3,24 @@
         "id": "project-01",
         "title": "My Vitamins",
         "description": "Savings thourgh payments & Retirment",
-        "image": "images/projects/thumbnail.png",
+        "image": "images/projects/my-vitamins.jpg",
+        "url": "https://www.figma.com/proto/71VlijjFJs2959L7g5zNe1/My-vitamins?page-id=0:1&node-id=3-156&scaling=scale-down-width&t=qEnNlVnsV0OABXxX-1",
         "tags": ["app redesign", "ux ui designer"]
     },
     {
         "id": "project-02",
         "title": "Good Trade",
         "description": "Digital volunteering",
-        "image": "images/projects/thumbnail.png",
+        "image": "images/projects/good-trade.jpg",
+        "url": "https://karen-pamela.vercel.app/pages/good-trade-case-study.html",
         "tags": ["web design", "ux ui designer"]
     },
     {
         "id": "project-03",
         "title": "Zensave",
         "description": "Savings thourgh payments & Retirment",
-        "image": "images/projects/thumbnail.png",
+        "image": "images/projects/zensave.jpg",
+        "url": "https://karen-pamela.vercel.app/pages/zensave-case-study.html",
         "tags": ["app design", "ux ui designer"]
     }
 ]

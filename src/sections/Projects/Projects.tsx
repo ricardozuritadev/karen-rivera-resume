@@ -12,12 +12,13 @@ export default function Projects({ sectionTitle, data }: ProjectsProps) {
     return (
         <section className="projects">
             <HorizontalScroll title={sectionTitle}>
-                {data.map(({ title, description, image, tags }) => (
+                {data.map(({ title, description, image, url, tags }) => (
                     <ProjectCard
                         key={title}
                         title={title}
                         description={description}
                         image={image}
+                        url={url}
                         tags={tags}
                     />
                 ))}

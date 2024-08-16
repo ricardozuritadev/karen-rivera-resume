@@ -4,6 +4,7 @@ type ProjectCardProps = {
     title: string;
     description: string;
     image: string;
+    url: string;
     tags: string[];
 };
 
@@ -11,10 +12,16 @@ export default function ProjectCard({
     title,
     description,
     image,
+    url,
     tags
 }: ProjectCardProps) {
     return (
-        <div className="project-card">
+        <a
+            href={url}
+            className="project-card"
+            target="_blank"
+            rel="noreferrer noopener"
+        >
             <div className="project-card__info">
                 <LazyLoadImage
                     className="project-card__image"
@@ -31,6 +38,6 @@ export default function ProjectCard({
                     ))}
                 </div>
             </div>
-        </div>
+        </a>
     );
 }
