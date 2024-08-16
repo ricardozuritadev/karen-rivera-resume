@@ -1,23 +1,26 @@
 [
-  {
-    "id": "challenge-01",
-    "title": "Healthy Mi",
-    "description": "Creative recipes for obesity patients",
-    "image": "images/challenges/thumbnail.png",
-    "tags": ["hackathon boeringer hingelheim", "3º prize"]
-  },
-  {
-    "id": "challenge-02",
-    "title": "Roady",
-    "description": "Creative recipes for obesity patients",
-    "image": "images/challenges/thumbnail.png",
-    "tags": ["hackathon boeringer hingelheim", "app design"]
-  },
-  {
-    "id": "challenge-03",
-    "title": "Samsung",
-    "description": "Landing page design & layout",
-    "image": "images/challenges/thumbnail.png",
-    "tags": ["ui design", "html & css"]
-  }
+    {
+        "id": "challenge-01",
+        "title": "Healthy Mi",
+        "description": "Creative recipes for obesity patients",
+        "image": "images/challenges/thumbnail.png",
+        "url": "#",
+        "tags": ["hackathon boeringer hingelheim", "3º prize"]
+    },
+    {
+        "id": "challenge-02",
+        "title": "Roady",
+        "description": "Creative recipes for obesity patients",
+        "image": "images/challenges/thumbnail.png",
+        "url": "#",
+        "tags": ["hackathon boeringer hingelheim", "app design"]
+    },
+    {
+        "id": "challenge-03",
+        "title": "Samsung",
+        "description": "Landing page design & layout",
+        "image": "images/challenges/thumbnail.png",
+        "url": "#",
+        "tags": ["ui design", "html & css"]
+    }
 ]
