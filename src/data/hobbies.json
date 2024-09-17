@@ -4,27 +4,27 @@
         "image": "icons/singing.svg",
         "alt": "Microphone icon",
         "title": "Singing",
-        "description": "Although I am an amateur singer, I know that every tone and note matters. The same is true of my work. Every pixel counts, every interaction is an opportunity to create a harmonious experience. I design interfaces like someone who composes a melody: with passion, attention to detail and an ear always attentive to the user's needs."
+        "description": "When singing, I know that every pitch and note matters. The same is true in my work. Every pixel counts, every interaction aligns with a harmonious experience. I design interfaces with passion, attention to detail and an ear always tuned to the user's needs."
     },
     {
         "id": "hobbie-02",
         "image": "icons/moving.svg",
         "alt": "Dancing icon",
         "title": "Moving",
-        "description": "Whether it's the gym or ballroom dancing, moving daily, sweating and pushing myself is part of my weeks. I feel that every project is like a choreography and every step counts to create a fluid and dynamic experience. From the first sketches to the final prototypes, I work with the same energy and precision that I put into every workout and dance."
+        "description": "Whether it's the gym or dancing in the living room, moving is part of my weeks. I feel like each project is a choreography that offers a fluid and dynamic experience. From the first sketches to the final prototypes, I work with the same energy and precision that I put into every workout and dance."
     },
     {
         "id": "hobbie-03",
         "image": "icons/reading.svg",
         "alt": "Reading icon",
         "title": "Reading",
-        "description": "I have recently become a passionate reader, after falling for the power of a good story. In my designs, I don't just create interfaces, I build visual narratives that guide the user through an immersive and meaningful experience. Every screen is a page and every interaction a chapter that keeps the user engaged and satisfied."
+        "description": "I became a passionate reader after falling under the spell of a good story. Since then, I build visual narratives that guide the user through an immersive and meaningful experience. Every screen is a page and every interaction keeps the user engaged and satisfied."
     },
     {
         "id": "hobbie-04",
         "image": "icons/people.svg",
         "alt": "Glass icon",
         "title": "People",
-        "description": "Spending time with friends and family is one of my sources of inspiration. The human connections and shared experiences teach me about empathy, communication and collaboration, essential elements in UX UI design. I value every moment with them, and that is reflected in my dedication to creating interfaces that facilitate meaningful connections for all users."
+        "description": "Spending time with friends and family is one of my main sources of inspiration. Human connections and shared experiences fuel my empathy, communication, and collaboration; key elements in creating interfaces that foster meaningful connections for all users."
     }
 ]
