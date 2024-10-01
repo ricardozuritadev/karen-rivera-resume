@@ -4,7 +4,7 @@
         "title": "Healthy Mi",
         "description": "Creative recipes for obesity patients",
         "image": "images/challenges/healthymi.png",
-        "url": "#",
+        "url": "https://www.figma.com/proto/b4X9U5Xi7wzE119tGaG3kQ/HealthyMi?page-id=2%3A41&node-id=406-7619&node-type=frame&t=jAIdbphdgaA1qwiP-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=406%3A7619",
         "tags": ["hackathon boeringer hingelheim", "3º prize"]
     },
     {
@@ -20,7 +20,7 @@
         "title": "Samsung",
         "description": "Landing page design & layout",
         "image": "images/challenges/samsung.png",
-        "url": "#",
+        "url": "https://www.figma.com/proto/SIj30uaBYZgxHaK5nxmDBu/Samsung-challengue?page-id=217%3A210&node-id=217-213&node-type=frame&t=BeDJtLE6X6U6y6zZ-1&scaling=min-zoom&content-scaling=fixed",
         "tags": ["ui design", "html & css"]
     }
 ]
